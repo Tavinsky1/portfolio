@@ -55,14 +55,14 @@ export default function Teaching() {
         <section className="mb-16 p-8 border-2 border-black">
           <h2 className="text-3xl font-bold mb-4">Teaching Philosophy</h2>
           <p className="text-gray-700 mb-4">
-            My approach combines technical skill-building with creative exploration. Whether it's 
+            My approach combines technical skill-building with creative exploration. Whether it&apos;s 
             circus performance, TouchDesigner, or music production, I focus on:
           </p>
           <ul className="list-disc list-inside space-y-2 text-gray-700">
             <li>Learning by doing — hands-on practice from day one</li>
             <li>Connecting disciplines — showing how circus, music, and digital art intersect</li>
             <li>Building confidence — creating a supportive environment for experimentation</li>
-            <li>Real-world application — teaching tools and techniques you'll actually use</li>
+            <li>Real-world application — teaching tools and techniques you&apos;ll actually use</li>
           </ul>
         </section>
 
@@ -124,8 +124,8 @@ export default function Teaching() {
         <section className="text-center p-12 border-2 border-black">
           <h2 className="text-3xl font-bold mb-4">Interested in a Workshop?</h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            I offer both in-person and online workshops, tailored to your group's needs and skill level. 
-            Let's discuss how we can collaborate.
+            I offer both in-person and online workshops, tailored to your group&apos;s needs and skill level. 
+            Let&apos;s discuss how we can collaborate.
           </p>
           <Link 
             href="/contact"

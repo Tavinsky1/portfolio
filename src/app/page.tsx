@@ -171,11 +171,11 @@ export default function Home() {
       <section className="py-24 px-4 bg-black text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Let's Create Something Together
+            Let&apos;s Create Something Together
           </h2>
           <p className="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
-            Whether it's a web project, visual design, or creative collaboration — 
-            I'm always open to new ideas.
+            Whether it&apos;s a web project, visual design, or creative collaboration — 
+            I&apos;m always open to new ideas.
           </p>
           <Link
             href="/contact"

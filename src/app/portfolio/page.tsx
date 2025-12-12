@@ -160,8 +160,8 @@ export default function Portfolio() {
             Have a Project in Mind?
           </h2>
           <p className="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
-            I'm available for freelance web development and design projects. 
-            Let's discuss how we can work together.
+            I&apos;m available for freelance web development and design projects. 
+            Let&apos;s discuss how we can work together.
           </p>
           <Link
             href="/contact"

@@ -89,10 +89,10 @@ export default function TavinskyCircus() {
               improvisation, reading an audience, and the courage to fail publicly.
             </p>
             <p className="text-xl">
-              Those skills didn't disappear when I transitioned to digital work — they 
+              Those skills didn&apos;t disappear when I transitioned to digital work — they 
               transformed. The same presence I brought to a street show now goes into 
-              building websites, creating visuals, and producing music. Tavinsky isn't 
-              just my past; it's the foundation of who I am.
+              building websites, creating visuals, and producing music. Tavinsky isn&apos;t 
+              just my past; it&apos;s the foundation of who I am.
             </p>
           </div>
         </div>

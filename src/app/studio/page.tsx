@@ -70,7 +70,7 @@ export default function Studio() {
           <div className="prose prose-lg max-w-none">
             <p className="text-xl text-gray-700 mb-6">
               The name <em>Inksky</em> represents the idea of a vast creative space — 
-              <strong>"one sky, many little worlds."</strong> Under this sky live different 
+              <strong>&quot;one sky, many little worlds.&quot;</strong> Under this sky live different 
               projects, personas, and experiments, each with its own identity but connected 
               by a common creative vision.
             </p>
@@ -153,7 +153,7 @@ export default function Studio() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Work With Us</h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Have a project in mind? Let's talk about how Inksky can help bring your vision to life.
+            Have a project in mind? Let&apos;s talk about how Inksky can help bring your vision to life.
           </p>
           <Link
             href="/contact"

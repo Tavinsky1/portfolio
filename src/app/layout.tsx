@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.inksky.net"),
   title: {
     default: "Inksky — Independent Creative Studio",
     template: "%s | Inksky",
@@ -33,10 +34,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Gustavo del Prato" }],
   creator: "Inksky",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://inksky.net",
+    url: "https://www.inksky.net",
     siteName: "Inksky",
     title: "Inksky — Independent Creative Studio",
     description:

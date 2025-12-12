@@ -162,11 +162,11 @@ export default function Motion() {
             </p>
             <p className="text-xl mb-6">
               This creates a feedback loop between sound and image — the music shapes the 
-              visuals, but the visuals also influence how I approach the music. It's 
+              visuals, but the visuals also influence how I approach the music. It&apos;s 
               performance art made with code.
             </p>
             <p className="text-xl">
-              I'm currently exploring 3D workflows with Blender and thinking about how 
+              I&apos;m currently exploring 3D workflows with Blender and thinking about how 
               these tools can enhance live DJ sets and installations.
             </p>
           </div>
@@ -180,7 +180,7 @@ export default function Motion() {
             Sound Meets Image
           </h2>
           <p className="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
-            The visual world is deeply connected to the music world. They're designed 
+            The visual world is deeply connected to the music world. They&apos;re designed 
             to work together — in live sets, in recordings, and in the creative process.
           </p>
           <Link

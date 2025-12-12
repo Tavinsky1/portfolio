@@ -102,9 +102,9 @@ export default function Worlds() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">Everything Connects</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-            These worlds aren't separate — they influence each other. The discipline from 
+            These worlds aren&apos;t separate — they influence each other. The discipline from 
             circus informs the music. The visuals react to the sound. The code brings it 
-            all to life. That's the Inksky approach.
+            all to life. That&apos;s the Inksky approach.
           </p>
           <Link
             href="/studio"

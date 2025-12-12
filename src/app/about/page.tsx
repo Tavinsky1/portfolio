@@ -59,7 +59,7 @@ export default function About() {
           </div>
           
           <p className="text-xl md:text-2xl text-gray-700 max-w-3xl leading-relaxed">
-            I'm <strong className="text-black">Gustavo del Prato</strong> — the person 
+            I&apos;m <strong className="text-black">Gustavo del Prato</strong> — the person 
             behind Inksky. Argentine-born, Berlin-based. Former circus performer, now 
             a multidisciplinary creator working across web, music, and visuals.
           </p>

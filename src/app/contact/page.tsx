@@ -15,7 +15,7 @@ export default function Contact() {
           <h1 className="text-5xl md:text-7xl font-bold mb-6">Get in Touch</h1>
           <p className="text-xl md:text-2xl text-gray-600 max-w-2xl mx-auto">
             Have a project in mind? Want to collaborate? Or just want to say hello? 
-            I'd love to hear from you.
+            I&apos;d love to hear from you.
           </p>
         </div>
       </section>
@@ -140,7 +140,7 @@ export default function Contact() {
       {/* Explore More */}
       <section className="py-24 px-4 bg-black text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-6">While You're Here</h2>
+          <h2 className="text-3xl font-bold mb-6">While You&apos;re Here</h2>
           <p className="text-gray-400 mb-8">
             Explore what Inksky is about before reaching out.
           </p>
