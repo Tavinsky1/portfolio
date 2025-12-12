@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
@@ -8,24 +9,27 @@ export const metadata: Metadata = {
 
 const projects = [
   {
-    name: 'Dog Atlas',
-    url: 'https://www.dog-atlas.com',
-    description: 'A comprehensive guide to dog breeds with detailed information, images, and comparison tools.',
-    tech: ['Next.js', 'React', 'Tailwind CSS'],
-    status: 'Live',
-    featured: true,
-  },
-  {
     name: 'Euphoria Embassy',
     url: 'https://www.euphoria-embassy.com',
+    image: '/projects/euphoria-embassy.png',
     description: 'An immersive digital experience exploring sound, visuals, and interactive storytelling.',
     tech: ['Next.js', 'Three.js', 'WebGL'],
     status: 'Live',
     featured: true,
   },
   {
+    name: 'Dog Atlas',
+    url: 'https://www.dog-atlas.com',
+    image: '/projects/dog-atlas.png',
+    description: 'A comprehensive guide to dog breeds with detailed information, images, and comparison tools.',
+    tech: ['Next.js', 'React', 'Tailwind CSS'],
+    status: 'Live',
+    featured: true,
+  },
+  {
     name: 'Inksky',
-    url: 'https://inksky.net',
+    url: 'https://www.inksky.net',
+    image: null,
     description: 'This site — the central hub for all creative projects and worlds.',
     tech: ['Next.js', 'TypeScript', 'Tailwind CSS'],
     status: 'Live',
@@ -68,9 +72,20 @@ export default function Portfolio() {
                 key={project.name}
                 className="border-2 border-black overflow-hidden group"
               >
-                {/* Project Image Placeholder */}
-                <div className="aspect-video bg-gray-100 flex items-center justify-center border-b-2 border-black">
-                  <span className="text-gray-400">Screenshot</span>
+                {/* Project Image */}
+                <div className="aspect-video bg-gray-100 relative border-b-2 border-black overflow-hidden">
+                  {project.image ? (
+                    <Image
+                      src={project.image}
+                      alt={`${project.name} screenshot`}
+                      fill
+                      className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                    />
+                  ) : (
+                    <div className="w-full h-full flex items-center justify-center">
+                      <span className="text-gray-400">Screenshot</span>
+                    </div>
+                  )}
                 </div>
                 
                 <div className="p-8">
